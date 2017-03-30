@@ -60,7 +60,7 @@ var initDb = function(callback) {
   });
 };
 
-app.get('/mbechauf', function (req, res) {
+app.get('/developer2', function (req, res) {
   // try to initialize the db on every request if it's not already
   // initialized.
   if (!db) {
